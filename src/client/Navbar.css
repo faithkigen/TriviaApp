@@ -1,0 +1,21 @@
+
+
+li a:hover {
+    background-color: #48a02f;
+  }
+  ul {
+   
+  }
+  
+  li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 10%;
+  
+  }
+  a {
+    padding: 8px;
+    background-color: rgb(2, 2, 49);
+    color: aliceblue;
+    text-decoration: none;
+  }
