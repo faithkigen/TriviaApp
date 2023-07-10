@@ -46,7 +46,7 @@
     .about-text {
       flex: 1 1 auto; /* allow flex grow and shrink } */
       margin-right: 2rem;
-      color: #fff;
+      color: black;
     }
   
     .about-title{

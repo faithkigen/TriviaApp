@@ -13,7 +13,7 @@ function LandingPage() {
 
   const handleLoginClick = () => {
     // setIsChecked(!isChecked);
-    navigate('/recipes')
+    navigate('landingpage')
   };
 
   const handleSignUpClick = () => {
@@ -21,7 +21,7 @@ function LandingPage() {
     navigate('/landingpage')
   };
 
-  const [redirectToRecipes, setRedirectToRecipes] = useState(false);
+  const [redirectToHandle, setRedirectToHandle] = useState(false);
 
   function handleUser(e){
     setUsername(e.target.value)
@@ -55,7 +55,7 @@ function LandingPage() {
       email,
       password,
     };
-    setRedirectToRecipes(true);
+    setRedirectToHandle(true);
   };
 
   // const handleSubmitOfReg = (e) => {
@@ -126,7 +126,7 @@ function LandingPage() {
     })
     .then((data) => {
       console.log(data);
-      setRedirectToRecipes(true);
+      setRedirectToHandle(true);
     })
     .catch((error) => {
       console.error(error);

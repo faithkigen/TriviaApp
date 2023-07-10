@@ -1,10 +1,12 @@
 import { useState } from "react";
 import About from "./component/LandingPage/About/About";
 import Contact from "./component/LandingPage/Contact/Contact";
-import Footer from "./component/LandingPage/Navbar/Footer"
+
 import LandingPage from "./component/LandingPage/Landing/landingpage";
 import Navbar from "./component/LandingPage/Navbar/Navbar";
+import Category from "./component/Category/Category";
 import './App.css'
+
 
 import {Routes, Route} from 'react-router-dom'
 
@@ -27,6 +29,8 @@ function App() {
                 <Route path="/landingpage" element={<LandingPage/>}/>
                 <Route path="/about" element={<About/>}/>
                 <Route path="/contact" element={<Contact/>}/>
+                <Route path="/category" element={<Category/>} />
+                
                 
 
 

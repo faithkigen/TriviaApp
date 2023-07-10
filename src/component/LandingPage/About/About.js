@@ -10,7 +10,7 @@ const About = () => {
         <div className="left-aboutsection">
           {/* content for left section */}
           <div className='about-card'>
-             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaggION2ARStJYdSQt9FOGOlXLd6Nl2C6pPw&usqp=CAU" className='about-img' alt="About Image" /> 
+             <img src="" className='about-img' alt="About Image" /> 
           </div>
         </div>
 
@@ -33,5 +33,3 @@ const About = () => {
 }
 
 export default About;
-  
-    

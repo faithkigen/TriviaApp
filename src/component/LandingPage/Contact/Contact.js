@@ -8,7 +8,7 @@ const contacts = [
     id: 4,
     name: "Cindy Muthoni",
     image: "https://i.pinimg.com/236x/2b/52/4e/2b524e336c16d5defec2f8cc532c765b.jpg",
-    details: "Trivia Master"
+    details: " 0702358770"
   }
 ];
 

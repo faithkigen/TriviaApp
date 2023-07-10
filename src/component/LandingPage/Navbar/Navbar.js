@@ -17,8 +17,7 @@ function Navbar({token, onLogout}) {
         <li><Link to="/">TRIVIA</Link></li>
         <li><Link to="/landingpage"></Link></li>
         <li><Link to="/continents">Contintent</Link></li>
-        <li><Link to="/diseases">Diseases</Link></li>
-        <li><Link to="/countries">Countries</Link></li>
+        <li><Link to="/category">Category</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/contact">Contact</Link></li>
         {/* <li><Link to="/profile">Profile</Link></li> */}
