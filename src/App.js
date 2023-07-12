@@ -5,6 +5,7 @@ import Contact from "./component/LandingPage/Contact/Contact";
 import LandingPage from "./component/LandingPage/Landing/landingpage";
 import Navbar from "./component/LandingPage/Navbar/Navbar";
 import Category from "./component/Category/Category";
+import Trivia from "./component/Trivia/Trivia";
 import './App.css'
 
 
@@ -27,13 +28,10 @@ function App() {
           <Routes>
                 <Route path="/" element={<LandingPage/>}/>
                 <Route path="/landingpage" element={<LandingPage/>}/>
-                <Route path="/about" element={<About/>}/>
-                <Route path="/contact" element={<Contact/>}/>
-                <Route path="/category" element={<Category/>} />
-                
-                
-
-
+                {/* <Route path="/about" element={<About/>}/> */}
+                <Route path="/trivia/:id" element={<Trivia/>}/>
+                <Route path="/trivias" element={<Category/>} />
+            
             </Routes>
         {/* <Footer /> */}
         </div>
