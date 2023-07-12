@@ -16,10 +16,9 @@ function Navbar({token, onLogout}) {
       {/* <li><a href="#">Tasty Trail</a></li> */}
         <li><Link to="/">TRIVIA</Link></li>
         <li><Link to="/landingpage"></Link></li>
-        <li><Link to="/continents">Contintent</Link></li>
-        <li><Link to="/category">Category</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/trivias">Trivias</Link></li>
+        {/* <li><Link to="/about">About</Link></li> */}
+        {/* <li><Link to="/contact">Contact</Link></li> */}
         {/* <li><Link to="/profile">Profile</Link></li> */}
         <li><Link to="/">Logout</Link></li>
       </ul>
