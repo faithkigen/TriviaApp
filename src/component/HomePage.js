@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import questions from './Question';
-import categories from './Categories';
 
-const Homepage = () => {
+import { categories } from "../data/Categories";
+
+const HomePage = () => {
     return (
         <div className="App" >
             <h1>Trivia</h1>
@@ -27,4 +27,4 @@ const Homepage = () => {
     );
 };
 
-export default Homepage;
+export default HomePage;

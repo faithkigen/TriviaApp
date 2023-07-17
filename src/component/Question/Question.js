@@ -1,4 +1,4 @@
-const questions = [
+const question = [
     {
       text: "What is the capital of America?",
       options: [
@@ -46,4 +46,4 @@ const questions = [
     },
   ];
 
-  export default questions;
+  export default question;
